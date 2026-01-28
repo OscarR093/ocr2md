@@ -1,0 +1,62 @@
+# =========================
+# 📄 Documentos de entrada / salida
+# =========================
+*.pdf
+*.md
+
+# =========================
+# 🖼️ Imágenes OCR / páginas renderizadas
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+
+# =========================
+# 📂 Directorios generados por el pipeline
+# =========================
+pages/
+assets/
+temp/
+output/
+*/pages/
+*/assets/
+
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# =========================
+# 🧪 Entornos virtuales
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# 📝 Logs y archivos temporales
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# 🧠 Ollama / modelos (por si acaso)
+# =========================
+.ollama/
+
+# =========================
+# 🖥️ Sistema
+# =========================
+.DS_Store
+Thumbs.db
+
